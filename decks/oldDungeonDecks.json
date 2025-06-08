@@ -1,0 +1,802 @@
+[
+    {
+        "pveID": "fire1",
+        "slot_1": "warrior_fire_1",
+        "slot_2": "battlemage_fire_1",
+        "slot_3": "monk_fire_1",
+        "slot_4": "ranger_fire_1",
+        "slot_5": "samurai_fire_1",
+        "slot_6": "wizard_fire_1",
+        "slot_7": "amazon_fire_1"
+    },
+    {
+        "pveID": "fire2",
+        "slot_1": "barbarian_fire_1",
+        "slot_2": "battlemage_fire_1",
+        "slot_3": "monk_fire_1",
+        "slot_4": "ranger_fire_1",
+        "slot_5": "samurai_fire_1",
+        "slot_6": "wizard_fire_1",
+        "slot_7": "amazon_fire_1"
+    },
+    {
+        "pveID": "fire3",
+        "slot_1": "barbarian_fire_1",
+        "slot_2": "battlemage_fire_1",
+        "slot_3": "monk_fire_1",
+        "slot_4": "bard_fire_1",
+        "slot_5": "samurai_fire_1",
+        "slot_6": "wizard_fire_1",
+        "slot_7": "amazon_fire_1"
+    },
+    {
+        "pveID": "fire4",
+        "slot_1": "barbarian_fire_1",
+        "slot_2": "justicar_fire_1",
+        "slot_3": "monk_fire_1",
+        "slot_4": "bard_fire_1",
+        "slot_5": "samurai_fire_1",
+        "slot_6": "wizard_fire_1",
+        "slot_7": "amazon_fire_1"
+    },
+    {
+        "pveID": "fire5",
+        "slot_1": "barbarian_fire_1",
+        "slot_2": "justicar_fire_1",
+        "slot_3": "monk_fire_1",
+        "slot_4": "bard_fire_1",
+        "slot_5": "samurai_fire_1",
+        "slot_6": "shaman_fire_1",
+        "slot_7": "amazon_fire_1"
+    },
+    {
+        "pveID": "fire6",
+        "slot_1": "barbarian_fire_1",
+        "slot_2": "justicar_fire_1",
+        "slot_3": "assassin_fire_1",
+        "slot_4": "bard_fire_1",
+        "slot_5": "samurai_fire_1",
+        "slot_6": "shaman_fire_1",
+        "slot_7": "amazon_fire_1"
+    },
+    {
+        "pveID": "fire7",
+        "slot_1": "barbarian_fire_1",
+        "slot_2": "justicar_fire_1",
+        "slot_3": "assassin_fire_1",
+        "slot_4": "bard_fire_1",
+        "slot_5": "samurai_fire_1",
+        "slot_6": "shaman_fire_1",
+        "slot_7": "cleric_fire_1"
+    },
+    {
+        "pveID": "fire8",
+        "slot_1": "barbarian_fire_1",
+        "slot_2": "justicar_fire_1",
+        "slot_3": "assassin_fire_1",
+        "slot_4": "bard_fire_1",
+        "slot_5": "archangel_fire_1",
+        "slot_6": "shaman_fire_1",
+        "slot_7": "cleric_fire_1"
+    },
+    {
+        "pveID": "fire9",
+        "slot_1": "barbarian_fire_1",
+        "slot_2": "justicar_fire_1",
+        "slot_3": "assassin_fire_1",
+        "slot_4": "druid_fire_1",
+        "slot_5": "archangel_fire_1",
+        "slot_6": "shaman_fire_1",
+        "slot_7": "cleric_fire_1"
+    },
+    {
+        "pveID": "fire10",
+        "slot_1": "necromancer_fire_1",
+        "slot_2": "justicar_fire_1",
+        "slot_3": "assassin_fire_1",
+        "slot_4": "druid_fire_1",
+        "slot_5": "archangel_fire_1",
+        "slot_6": "shaman_fire_1",
+        "slot_7": "cleric_fire_1"
+    },
+    {
+        "pveID": "ice1",
+        "slot_1": "warrior_ice_1",
+        "slot_2": "battlemage_ice_1",
+        "slot_3": "monk_ice_1",
+        "slot_4": "ranger_ice_1",
+        "slot_5": "samurai_ice_1",
+        "slot_6": "wizard_ice_1",
+        "slot_7": "amazon_ice_1"
+    },
+    {
+        "pveID": "ice2",
+        "slot_1": "barbarian_ice_1",
+        "slot_2": "battlemage_ice_1",
+        "slot_3": "monk_ice_1",
+        "slot_4": "ranger_ice_1",
+        "slot_5": "samurai_ice_1",
+        "slot_6": "wizard_ice_1",
+        "slot_7": "amazon_ice_1"
+    },
+    {
+        "pveID": "ice3",
+        "slot_1": "barbarian_ice_1",
+        "slot_2": "battlemage_ice_1",
+        "slot_3": "monk_ice_1",
+        "slot_4": "bard_ice_1",
+        "slot_5": "samurai_ice_1",
+        "slot_6": "wizard_ice_1",
+        "slot_7": "amazon_ice_1"
+    },
+    {
+        "pveID": "ice4",
+        "slot_1": "barbarian_ice_1",
+        "slot_2": "justicar_ice_1",
+        "slot_3": "monk_ice_1",
+        "slot_4": "bard_ice_1",
+        "slot_5": "samurai_ice_1",
+        "slot_6": "wizard_ice_1",
+        "slot_7": "amazon_ice_1"
+    },
+    {
+        "pveID": "ice5",
+        "slot_1": "barbarian_ice_1",
+        "slot_2": "justicar_ice_1",
+        "slot_3": "monk_ice_1",
+        "slot_4": "bard_ice_1",
+        "slot_5": "samurai_ice_1",
+        "slot_6": "shaman_ice_1",
+        "slot_7": "amazon_ice_1"
+    },
+    {
+        "pveID": "ice6",
+        "slot_1": "barbarian_ice_1",
+        "slot_2": "justicar_ice_1",
+        "slot_3": "assassin_ice_1",
+        "slot_4": "bard_ice_1",
+        "slot_5": "samurai_ice_1",
+        "slot_6": "shaman_ice_1",
+        "slot_7": "amazon_ice_1"
+    },
+    {
+        "pveID": "ice7",
+        "slot_1": "barbarian_ice_1",
+        "slot_2": "justicar_ice_1",
+        "slot_3": "assassin_ice_1",
+        "slot_4": "bard_ice_1",
+        "slot_5": "samurai_ice_1",
+        "slot_6": "shaman_ice_1",
+        "slot_7": "cleric_ice_1"
+    },
+    {
+        "pveID": "ice8",
+        "slot_1": "barbarian_ice_1",
+        "slot_2": "justicar_ice_1",
+        "slot_3": "assassin_ice_1",
+        "slot_4": "bard_ice_1",
+        "slot_5": "archangel_ice_1",
+        "slot_6": "shaman_ice_1",
+        "slot_7": "cleric_ice_1"
+    },
+    {
+        "pveID": "ice9",
+        "slot_1": "barbarian_ice_1",
+        "slot_2": "justicar_ice_1",
+        "slot_3": "assassin_ice_1",
+        "slot_4": "druid_ice_1",
+        "slot_5": "archangel_ice_1",
+        "slot_6": "shaman_ice_1",
+        "slot_7": "cleric_ice_1"
+    },
+    {
+        "pveID": "ice10",
+        "slot_1": "necromancer_ice_1",
+        "slot_2": "justicar_ice_1",
+        "slot_3": "assassin_ice_1",
+        "slot_4": "druid_ice_1",
+        "slot_5": "archangel_ice_1",
+        "slot_6": "shaman_ice_1",
+        "slot_7": "cleric_ice_1"
+    },
+    {
+        "pveID": "wind1",
+        "slot_1": "warrior_wind_1",
+        "slot_2": "battlemage_wind_1",
+        "slot_3": "monk_wind_1",
+        "slot_4": "ranger_wind_1",
+        "slot_5": "samurai_wind_1",
+        "slot_6": "wizard_wind_1",
+        "slot_7": "amazon_wind_1"
+    },
+    {
+        "pveID": "wind2",
+        "slot_1": "barbarian_wind_1",
+        "slot_2": "battlemage_wind_1",
+        "slot_3": "monk_wind_1",
+        "slot_4": "ranger_wind_1",
+        "slot_5": "samurai_wind_1",
+        "slot_6": "wizard_wind_1",
+        "slot_7": "amazon_wind_1"
+    },
+    {
+        "pveID": "wind3",
+        "slot_1": "barbarian_wind_1",
+        "slot_2": "battlemage_wind_1",
+        "slot_3": "monk_wind_1",
+        "slot_4": "bard_wind_1",
+        "slot_5": "samurai_wind_1",
+        "slot_6": "wizard_wind_1",
+        "slot_7": "amazon_wind_1"
+    },
+    {
+        "pveID": "wind4",
+        "slot_1": "barbarian_wind_1",
+        "slot_2": "justicar_wind_1",
+        "slot_3": "monk_wind_1",
+        "slot_4": "bard_wind_1",
+        "slot_5": "samurai_wind_1",
+        "slot_6": "wizard_wind_1",
+        "slot_7": "amazon_wind_1"
+    },
+    {
+        "pveID": "wind5",
+        "slot_1": "barbarian_wind_1",
+        "slot_2": "justicar_wind_1",
+        "slot_3": "monk_wind_1",
+        "slot_4": "bard_wind_1",
+        "slot_5": "samurai_wind_1",
+        "slot_6": "shaman_wind_1",
+        "slot_7": "amazon_wind_1"
+    },
+    {
+        "pveID": "wind6",
+        "slot_1": "barbarian_wind_1",
+        "slot_2": "justicar_wind_1",
+        "slot_3": "assassin_wind_1",
+        "slot_4": "bard_wind_1",
+        "slot_5": "samurai_wind_1",
+        "slot_6": "shaman_wind_1",
+        "slot_7": "amazon_wind_1"
+    },
+    {
+        "pveID": "wind7",
+        "slot_1": "barbarian_wind_1",
+        "slot_2": "justicar_wind_1",
+        "slot_3": "assassin_wind_1",
+        "slot_4": "bard_wind_1",
+        "slot_5": "samurai_wind_1",
+        "slot_6": "shaman_wind_1",
+        "slot_7": "cleric_wind_1"
+    },
+    {
+        "pveID": "wind8",
+        "slot_1": "barbarian_wind_1",
+        "slot_2": "justicar_wind_1",
+        "slot_3": "assassin_wind_1",
+        "slot_4": "bard_wind_1",
+        "slot_5": "archangel_wind_1",
+        "slot_6": "shaman_wind_1",
+        "slot_7": "cleric_wind_1"
+    },
+    {
+        "pveID": "wind9",
+        "slot_1": "barbarian_wind_1",
+        "slot_2": "justicar_wind_1",
+        "slot_3": "assassin_wind_1",
+        "slot_4": "druid_wind_1",
+        "slot_5": "archangel_wind_1",
+        "slot_6": "shaman_wind_1",
+        "slot_7": "cleric_wind_1"
+    },
+    {
+        "pveID": "wind10",
+        "slot_1": "necromancer_wind_1",
+        "slot_2": "justicar_wind_1",
+        "slot_3": "assassin_wind_1",
+        "slot_4": "druid_wind_1",
+        "slot_5": "archangel_wind_1",
+        "slot_6": "shaman_wind_1",
+        "slot_7": "cleric_wind_1"
+    },
+    {
+        "pveID": "earth1",
+        "slot_1": "warrior_earth_1",
+        "slot_2": "battlemage_earth_1",
+        "slot_3": "monk_earth_1",
+        "slot_4": "ranger_earth_1",
+        "slot_5": "samurai_earth_1",
+        "slot_6": "wizard_earth_1",
+        "slot_7": "amazon_earth_1"
+    },
+    {
+        "pveID": "earth2",
+        "slot_1": "barbarian_earth_1",
+        "slot_2": "battlemage_earth_1",
+        "slot_3": "monk_earth_1",
+        "slot_4": "ranger_earth_1",
+        "slot_5": "samurai_earth_1",
+        "slot_6": "wizard_earth_1",
+        "slot_7": "amazon_earth_1"
+    },
+    {
+        "pveID": "earth3",
+        "slot_1": "barbarian_earth_1",
+        "slot_2": "battlemage_earth_1",
+        "slot_3": "monk_earth_1",
+        "slot_4": "bard_earth_1",
+        "slot_5": "samurai_earth_1",
+        "slot_6": "wizard_earth_1",
+        "slot_7": "amazon_earth_1"
+    },
+    {
+        "pveID": "earth4",
+        "slot_1": "barbarian_earth_1",
+        "slot_2": "justicar_earth_1",
+        "slot_3": "monk_earth_1",
+        "slot_4": "bard_earth_1",
+        "slot_5": "samurai_earth_1",
+        "slot_6": "wizard_earth_1",
+        "slot_7": "amazon_earth_1"
+    },
+    {
+        "pveID": "earth5",
+        "slot_1": "barbarian_earth_1",
+        "slot_2": "justicar_earth_1",
+        "slot_3": "monk_earth_1",
+        "slot_4": "bard_earth_1",
+        "slot_5": "samurai_earth_1",
+        "slot_6": "shaman_earth_1",
+        "slot_7": "amazon_earth_1"
+    },
+    {
+        "pveID": "earth6",
+        "slot_1": "barbarian_earth_1",
+        "slot_2": "justicar_earth_1",
+        "slot_3": "assassin_earth_1",
+        "slot_4": "bard_earth_1",
+        "slot_5": "samurai_earth_1",
+        "slot_6": "shaman_earth_1",
+        "slot_7": "amazon_earth_1"
+    },
+    {
+        "pveID": "earth7",
+        "slot_1": "barbarian_earth_1",
+        "slot_2": "justicar_earth_1",
+        "slot_3": "assassin_earth_1",
+        "slot_4": "bard_earth_1",
+        "slot_5": "samurai_earth_1",
+        "slot_6": "shaman_earth_1",
+        "slot_7": "cleric_earth_1"
+    },
+    {
+        "pveID": "earth8",
+        "slot_1": "barbarian_earth_1",
+        "slot_2": "justicar_earth_1",
+        "slot_3": "assassin_earth_1",
+        "slot_4": "bard_earth_1",
+        "slot_5": "archangel_earth_1",
+        "slot_6": "shaman_earth_1",
+        "slot_7": "cleric_earth_1"
+    },
+    {
+        "pveID": "earth9",
+        "slot_1": "barbarian_earth_1",
+        "slot_2": "justicar_earth_1",
+        "slot_3": "assassin_earth_1",
+        "slot_4": "druid_earth_1",
+        "slot_5": "archangel_earth_1",
+        "slot_6": "shaman_earth_1",
+        "slot_7": "cleric_earth_1"
+    },
+    {
+        "pveID": "earth10",
+        "slot_1": "necromancer_earth_1",
+        "slot_2": "justicar_earth_1",
+        "slot_3": "assassin_earth_1",
+        "slot_4": "druid_earth_1",
+        "slot_5": "archangel_earth_1",
+        "slot_6": "shaman_earth_1",
+        "slot_7": "cleric_earth_1"
+    },
+    {
+        "pveID": "lightning1",
+        "slot_1": "warrior_lightning_1",
+        "slot_2": "battlemage_lightning_1",
+        "slot_3": "monk_lightning_1",
+        "slot_4": "ranger_lightning_1",
+        "slot_5": "samurai_lightning_1",
+        "slot_6": "wizard_lightning_1",
+        "slot_7": "amazon_lightning_1"
+    },
+    {
+        "pveID": "lightning2",
+        "slot_1": "barbarian_lightning_1",
+        "slot_2": "battlemage_lightning_1",
+        "slot_3": "monk_lightning_1",
+        "slot_4": "ranger_lightning_1",
+        "slot_5": "samurai_lightning_1",
+        "slot_6": "wizard_lightning_1",
+        "slot_7": "amazon_lightning_1"
+    },
+    {
+        "pveID": "lightning3",
+        "slot_1": "barbarian_lightning_1",
+        "slot_2": "battlemage_lightning_1",
+        "slot_3": "monk_lightning_1",
+        "slot_4": "bard_lightning_1",
+        "slot_5": "samurai_lightning_1",
+        "slot_6": "wizard_lightning_1",
+        "slot_7": "amazon_lightning_1"
+    },
+    {
+        "pveID": "lightning4",
+        "slot_1": "barbarian_lightning_1",
+        "slot_2": "justicar_lightning_1",
+        "slot_3": "monk_lightning_1",
+        "slot_4": "bard_lightning_1",
+        "slot_5": "samurai_lightning_1",
+        "slot_6": "wizard_lightning_1",
+        "slot_7": "amazon_lightning_1"
+    },
+    {
+        "pveID": "lightning5",
+        "slot_1": "barbarian_lightning_1",
+        "slot_2": "justicar_lightning_1",
+        "slot_3": "monk_lightning_1",
+        "slot_4": "bard_lightning_1",
+        "slot_5": "samurai_lightning_1",
+        "slot_6": "shaman_lightning_1",
+        "slot_7": "amazon_lightning_1"
+    },
+    {
+        "pveID": "lightning6",
+        "slot_1": "barbarian_lightning_1",
+        "slot_2": "justicar_lightning_1",
+        "slot_3": "assassin_lightning_1",
+        "slot_4": "bard_lightning_1",
+        "slot_5": "samurai_lightning_1",
+        "slot_6": "shaman_lightning_1",
+        "slot_7": "amazon_lightning_1"
+    },
+    {
+        "pveID": "lightning7",
+        "slot_1": "barbarian_lightning_1",
+        "slot_2": "justicar_lightning_1",
+        "slot_3": "assassin_lightning_1",
+        "slot_4": "bard_lightning_1",
+        "slot_5": "samurai_lightning_1",
+        "slot_6": "shaman_lightning_1",
+        "slot_7": "cleric_lightning_1"
+    },
+    {
+        "pveID": "lightning8",
+        "slot_1": "barbarian_lightning_1",
+        "slot_2": "justicar_lightning_1",
+        "slot_3": "assassin_lightning_1",
+        "slot_4": "bard_lightning_1",
+        "slot_5": "archangel_lightning_1",
+        "slot_6": "shaman_lightning_1",
+        "slot_7": "cleric_lightning_1"
+    },
+    {
+        "pveID": "lightning9",
+        "slot_1": "barbarian_lightning_1",
+        "slot_2": "justicar_lightning_1",
+        "slot_3": "assassin_lightning_1",
+        "slot_4": "druid_lightning_1",
+        "slot_5": "archangel_lightning_1",
+        "slot_6": "shaman_lightning_1",
+        "slot_7": "cleric_lightning_1"
+    },
+    {
+        "pveID": "lightning10",
+        "slot_1": "necromancer_lightning_1",
+        "slot_2": "justicar_lightning_1",
+        "slot_3": "assassin_lightning_1",
+        "slot_4": "druid_lightning_1",
+        "slot_5": "archangel_lightning_1",
+        "slot_6": "shaman_lightning_1",
+        "slot_7": "cleric_lightning_1"
+    },
+    {
+        "pveID": "water1",
+        "slot_1": "warrior_water_1",
+        "slot_2": "battlemage_water_1",
+        "slot_3": "monk_water_1",
+        "slot_4": "ranger_water_1",
+        "slot_5": "samurai_water_1",
+        "slot_6": "wizard_water_1",
+        "slot_7": "amazon_water_1"
+    },
+    {
+        "pveID": "water2",
+        "slot_1": "barbarian_water_1",
+        "slot_2": "battlemage_water_1",
+        "slot_3": "monk_water_1",
+        "slot_4": "ranger_water_1",
+        "slot_5": "samurai_water_1",
+        "slot_6": "wizard_water_1",
+        "slot_7": "amazon_water_1"
+    },
+    {
+        "pveID": "water3",
+        "slot_1": "barbarian_water_1",
+        "slot_2": "battlemage_water_1",
+        "slot_3": "monk_water_1",
+        "slot_4": "bard_water_1",
+        "slot_5": "samurai_water_1",
+        "slot_6": "wizard_water_1",
+        "slot_7": "amazon_water_1"
+    },
+    {
+        "pveID": "water4",
+        "slot_1": "barbarian_water_1",
+        "slot_2": "justicar_water_1",
+        "slot_3": "monk_water_1",
+        "slot_4": "bard_water_1",
+        "slot_5": "samurai_water_1",
+        "slot_6": "wizard_water_1",
+        "slot_7": "amazon_water_1"
+    },
+    {
+        "pveID": "water5",
+        "slot_1": "barbarian_water_1",
+        "slot_2": "justicar_water_1",
+        "slot_3": "monk_water_1",
+        "slot_4": "bard_water_1",
+        "slot_5": "samurai_water_1",
+        "slot_6": "shaman_water_1",
+        "slot_7": "amazon_water_1"
+    },
+    {
+        "pveID": "water6",
+        "slot_1": "barbarian_water_1",
+        "slot_2": "justicar_water_1",
+        "slot_3": "assassin_water_1",
+        "slot_4": "bard_water_1",
+        "slot_5": "samurai_water_1",
+        "slot_6": "shaman_water_1",
+        "slot_7": "amazon_water_1"
+    },
+    {
+        "pveID": "water7",
+        "slot_1": "barbarian_water_1",
+        "slot_2": "justicar_water_1",
+        "slot_3": "assassin_water_1",
+        "slot_4": "bard_water_1",
+        "slot_5": "samurai_water_1",
+        "slot_6": "shaman_water_1",
+        "slot_7": "cleric_water_1"
+    },
+    {
+        "pveID": "water8",
+        "slot_1": "barbarian_water_1",
+        "slot_2": "justicar_water_1",
+        "slot_3": "assassin_water_1",
+        "slot_4": "bard_water_1",
+        "slot_5": "archangel_water_1",
+        "slot_6": "shaman_water_1",
+        "slot_7": "cleric_water_1"
+    },
+    {
+        "pveID": "water9",
+        "slot_1": "barbarian_water_1",
+        "slot_2": "justicar_water_1",
+        "slot_3": "assassin_water_1",
+        "slot_4": "druid_water_1",
+        "slot_5": "archangel_water_1",
+        "slot_6": "shaman_water_1",
+        "slot_7": "cleric_water_1"
+    },
+    {
+        "pveID": "water10",
+        "slot_1": "necromancer_water_1",
+        "slot_2": "justicar_water_1",
+        "slot_3": "assassin_water_1",
+        "slot_4": "druid_water_1",
+        "slot_5": "archangel_water_1",
+        "slot_6": "shaman_water_1",
+        "slot_7": "cleric_water_1"
+    },
+    {
+        "pveID": "light1",
+        "slot_1": "warrior_light_1",
+        "slot_2": "battlemage_light_1",
+        "slot_3": "monk_light_1",
+        "slot_4": "ranger_light_1",
+        "slot_5": "samurai_light_1",
+        "slot_6": "wizard_light_1",
+        "slot_7": "amazon_light_1"
+    },
+    {
+        "pveID": "light2",
+        "slot_1": "barbarian_light_1",
+        "slot_2": "battlemage_light_1",
+        "slot_3": "monk_light_1",
+        "slot_4": "ranger_light_1",
+        "slot_5": "samurai_light_1",
+        "slot_6": "wizard_light_1",
+        "slot_7": "amazon_light_1"
+    },
+    {
+        "pveID": "light3",
+        "slot_1": "barbarian_light_1",
+        "slot_2": "battlemage_light_1",
+        "slot_3": "monk_light_1",
+        "slot_4": "bard_light_1",
+        "slot_5": "samurai_light_1",
+        "slot_6": "wizard_light_1",
+        "slot_7": "amazon_light_1"
+    },
+    {
+        "pveID": "light4",
+        "slot_1": "barbarian_light_1",
+        "slot_2": "justicar_light_1",
+        "slot_3": "monk_light_1",
+        "slot_4": "bard_light_1",
+        "slot_5": "samurai_light_1",
+        "slot_6": "wizard_light_1",
+        "slot_7": "amazon_light_1"
+    },
+    {
+        "pveID": "light5",
+        "slot_1": "barbarian_light_1",
+        "slot_2": "justicar_light_1",
+        "slot_3": "monk_light_1",
+        "slot_4": "bard_light_1",
+        "slot_5": "samurai_light_1",
+        "slot_6": "shaman_light_1",
+        "slot_7": "amazon_light_1"
+    },
+    {
+        "pveID": "light6",
+        "slot_1": "barbarian_light_1",
+        "slot_2": "justicar_light_1",
+        "slot_3": "assassin_light_1",
+        "slot_4": "bard_light_1",
+        "slot_5": "samurai_light_1",
+        "slot_6": "shaman_light_1",
+        "slot_7": "amazon_light_1"
+    },
+    {
+        "pveID": "light7",
+        "slot_1": "barbarian_light_1",
+        "slot_2": "justicar_light_1",
+        "slot_3": "assassin_light_1",
+        "slot_4": "bard_light_1",
+        "slot_5": "samurai_light_1",
+        "slot_6": "shaman_light_1",
+        "slot_7": "cleric_light_1"
+    },
+    {
+        "pveID": "light8",
+        "slot_1": "barbarian_light_1",
+        "slot_2": "justicar_light_1",
+        "slot_3": "assassin_light_1",
+        "slot_4": "bard_light_1",
+        "slot_5": "archangel_light_1",
+        "slot_6": "shaman_light_1",
+        "slot_7": "cleric_light_1"
+    },
+    {
+        "pveID": "light9",
+        "slot_1": "barbarian_light_1",
+        "slot_2": "justicar_light_1",
+        "slot_3": "assassin_light_1",
+        "slot_4": "druid_light_1",
+        "slot_5": "archangel_light_1",
+        "slot_6": "shaman_light_1",
+        "slot_7": "cleric_light_1"
+    },
+    {
+        "pveID": "light10",
+        "slot_1": "necromancer_light_1",
+        "slot_2": "justicar_light_1",
+        "slot_3": "assassin_light_1",
+        "slot_4": "druid_light_1",
+        "slot_5": "archangel_light_1",
+        "slot_6": "shaman_light_1",
+        "slot_7": "cleric_light_1"
+    },
+    {
+        "pveID": "dark1",
+        "slot_1": "warrior_dark_1",
+        "slot_2": "battlemage_dark_1",
+        "slot_3": "monk_dark_1",
+        "slot_4": "ranger_dark_1",
+        "slot_5": "samurai_dark_1",
+        "slot_6": "wizard_dark_1",
+        "slot_7": "amazon_dark_1"
+    },
+    {
+        "pveID": "dark2",
+        "slot_1": "barbarian_dark_1",
+        "slot_2": "battlemage_dark_1",
+        "slot_3": "monk_dark_1",
+        "slot_4": "ranger_dark_1",
+        "slot_5": "samurai_dark_1",
+        "slot_6": "wizard_dark_1",
+        "slot_7": "amazon_dark_1"
+    },
+    {
+        "pveID": "dark3",
+        "slot_1": "barbarian_dark_1",
+        "slot_2": "battlemage_dark_1",
+        "slot_3": "monk_dark_1",
+        "slot_4": "bard_dark_1",
+        "slot_5": "samurai_dark_1",
+        "slot_6": "wizard_dark_1",
+        "slot_7": "amazon_dark_1"
+    },
+    {
+        "pveID": "dark4",
+        "slot_1": "barbarian_dark_1",
+        "slot_2": "justicar_dark_1",
+        "slot_3": "monk_dark_1",
+        "slot_4": "bard_dark_1",
+        "slot_5": "samurai_dark_1",
+        "slot_6": "wizard_dark_1",
+        "slot_7": "amazon_dark_1"
+    },
+    {
+        "pveID": "dark5",
+        "slot_1": "barbarian_dark_1",
+        "slot_2": "justicar_dark_1",
+        "slot_3": "monk_dark_1",
+        "slot_4": "bard_dark_1",
+        "slot_5": "samurai_dark_1",
+        "slot_6": "shaman_dark_1",
+        "slot_7": "amazon_dark_1"
+    },
+    {
+        "pveID": "dark6",
+        "slot_1": "barbarian_dark_1",
+        "slot_2": "justicar_dark_1",
+        "slot_3": "assassin_dark_1",
+        "slot_4": "bard_dark_1",
+        "slot_5": "samurai_dark_1",
+        "slot_6": "shaman_dark_1",
+        "slot_7": "amazon_dark_1"
+    },
+    {
+        "pveID": "dark7",
+        "slot_1": "barbarian_dark_1",
+        "slot_2": "justicar_dark_1",
+        "slot_3": "assassin_dark_1",
+        "slot_4": "bard_dark_1",
+        "slot_5": "samurai_dark_1",
+        "slot_6": "shaman_dark_1",
+        "slot_7": "cleric_dark_1"
+    },
+    {
+        "pveID": "dark8",
+        "slot_1": "barbarian_dark_1",
+        "slot_2": "justicar_dark_1",
+        "slot_3": "assassin_dark_1",
+        "slot_4": "bard_dark_1",
+        "slot_5": "archangel_dark_1",
+        "slot_6": "shaman_dark_1",
+        "slot_7": "cleric_dark_1"
+    },
+    {
+        "pveID": "dark9",
+        "slot_1": "barbarian_dark_1",
+        "slot_2": "justicar_dark_1",
+        "slot_3": "assassin_dark_1",
+        "slot_4": "druid_dark_1",
+        "slot_5": "archangel_dark_1",
+        "slot_6": "shaman_dark_1",
+        "slot_7": "cleric_dark_1"
+    },
+    {
+        "pveID": "dark10",
+        "slot_1": "necromancer_dark_1",
+        "slot_2": "justicar_dark_1",
+        "slot_3": "assassin_dark_1",
+        "slot_4": "druid_dark_1",
+        "slot_5": "archangel_dark_1",
+        "slot_6": "shaman_dark_1",
+        "slot_7": "cleric_dark_1"
+    }
+]
