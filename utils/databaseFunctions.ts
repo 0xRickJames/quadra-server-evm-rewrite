@@ -1,10 +1,10 @@
 import { MongoClient, ObjectId, WithId } from "mongodb"
 import { match } from "assert"
 
+const mongodbUri = process.env.MONGODB_URI || ""
+
 export async function fetchPlayerAverageTurnTime(playerName: string) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("games")
   const collection = db.collection("games")
 
@@ -53,9 +53,7 @@ export async function updateGameDatabase(
   playerTwoScore: number,
   playerTwoAverageTurnTime: number
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db(`games`)
   const collection = db.collection(`games`)
 
@@ -84,9 +82,7 @@ export async function updateDungeonGameDatabase(
   playerTwo: string,
   playerTwoScore: number
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db(`games`)
   const collection = db.collection(`games`)
 
@@ -104,9 +100,7 @@ export async function updateDungeonGameDatabase(
   return result
 }
 export async function resetDungeonLevels() {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -130,9 +124,7 @@ export async function setHighestDungeonLevel(
   player: string,
   currentHighestLevel: number
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -154,9 +146,7 @@ export async function setHighestDarkDungeonLevel(
   player: string,
   currentHighestDarkLevel: number
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -175,9 +165,7 @@ export async function setHighestDarkDungeonLevel(
   await client.close()
 }
 export async function resetLostRenown() {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -198,9 +186,7 @@ export async function resetLostRenown() {
 }
 
 export async function replenishHourlyEnergy() {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -219,9 +205,7 @@ export async function replenishHourlyEnergy() {
   await client.close()
 }
 export async function replenishDailyEnergy() {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -239,9 +223,7 @@ export async function replenishDailyEnergy() {
   await client.close()
 }
 export async function addDefaultDeckValue() {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -273,9 +255,7 @@ export async function updateDungeonPlayerDatabase(
   playerHighestLevel: number,
   playerHighestDarkLevel: number
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -311,9 +291,7 @@ export async function updateDungeonTournamentFourPlayerDatabase(
   playerLossesDungeon: number,
   playerTiesDungeon: number
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("dungeonTournaments")
   const collection = db.collection("tournamentFour")
 
@@ -362,9 +340,7 @@ export async function updatePlayerDatabase(
   playerTwoLossesNormal: number,
   playerTwoTiesNormal: number
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -420,9 +396,7 @@ export async function updatePlayerDatabase(
 }
 
 export async function fetchHighestLevelAndEnergy(player: string) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -474,9 +448,7 @@ export async function fetchHighestLevelAndEnergy(player: string) {
 }
 
 export async function fetchEnergy(player: string) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -521,9 +493,7 @@ export async function decrementEnergy(player: string) {
   let energy = await fetchEnergy(player)
   energy = energy - 1
 
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
 
   const db = client.db("players")
   const collection = db.collection("players")
@@ -543,9 +513,7 @@ export async function decrementEnergy(player: string) {
   await client.close()
 }
 export async function fetchDungeonTournamentFourPlayerStats(player: string) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("dungeonTournaments")
   const collection = db.collection("tournamentFour")
 
@@ -572,9 +540,7 @@ export async function fetchDungeonTournamentFourPlayerStats(player: string) {
 }
 
 export async function fetchPlayerStats(player: string) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("players")
   const collection = db.collection("players")
 
@@ -620,9 +586,7 @@ export async function updateGwenRewards(player: string, gwenAmount: number) {
   const playerStats = await fetchPlayerStats(player)
   const oldUnclaimedRewards: number = playerStats.unclaimedGwen
   const newUnclaimedRewards: number = oldUnclaimedRewards + gwenAmount
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
 
   const db = client.db("players")
   const collection = db.collection("players")
@@ -643,9 +607,7 @@ export async function updateGwenRewards(player: string, gwenAmount: number) {
 }
 
 export async function fetchDeck(owner: string, name: string) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("decks")
   const collection = db.collection("decks")
   let deckCardProps = await collection.findOne({ owner: owner, name: name })

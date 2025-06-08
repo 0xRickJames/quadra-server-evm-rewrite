@@ -19,6 +19,8 @@ const connection = new Connection(
 )
 const merchantPrivateKey = process.env.MERCHANT_PRIVATE_KEY || "0"
 
+const mongodbUri = process.env.MONGODB_URI || ""
+
 const merchantKeypair = Keypair.fromSecretKey(bs58.decode(merchantPrivateKey))
 const merchantaddress = merchantKeypair.address
 const gwenAddress =
@@ -40,9 +42,7 @@ export default async function sendRewards(amount: number, address: string) {
     `Sending ${amount} ${gwenAddress} from ${merchantaddress.toString()} to ${address}.`
   )
   // Send reward info to Gwen Rewards database
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("gwenRewards")
   const collection = db.collection("gwenRewards")
   const timestamp = Date.now()
@@ -115,9 +115,7 @@ export default async function sendRewards(amount: number, address: string) {
     }
 
     // delete the entry from the db
-    const client = await MongoClient.connect(
-      "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-    )
+    const client = await MongoClient.connect(mongodbUri)
     const db = client.db("gwenRewards")
     const collection = db.collection("gwenRewards")
     console.log("deleting db entry after giving rewards")

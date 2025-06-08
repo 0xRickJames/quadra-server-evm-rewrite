@@ -1,11 +1,11 @@
 import { MongoClient, ObjectId } from "mongodb"
 
+const mongodbUri = process.env.MONGODB_URI || ""
+
 export async function fetchTournamentFourPlayerAverageTurnTime(
   playerName: string
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("tournamentGames")
   const collection = db.collection("tournamentFourGames")
 
@@ -54,9 +54,7 @@ export async function updateTournamentFourGameDatabase(
   playerTwoScore: number,
   playerTwoAverageTurnTime: number
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db(`tournamentGames`)
   const collection = db.collection(`tournamentFourGames`)
 
@@ -93,9 +91,7 @@ export async function updateTournamentFourPlayerDatabase(
   playerTwoLosses: number,
   playerTwoTies: number
 ) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("tournamentPlayers")
   const collection = db.collection("tournamentFourPlayers")
 
@@ -141,9 +137,7 @@ export async function updateTournamentFourPlayerDatabase(
 }
 
 export async function fetchTournamentFourPlayerStats(player: string) {
-  const client = await MongoClient.connect(
-    "mongodb+srv://eduardorichardlootheroes:8qRqciAsDZUgZLxr@cluster0.8zqx2ia.mongodb.net/"
-  )
+  const client = await MongoClient.connect(mongodbUri)
   const db = client.db("tournamentPlayers")
   const collection = db.collection("tournamentFourPlayers")
 
