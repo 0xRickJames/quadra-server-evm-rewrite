@@ -15,6 +15,52 @@ import {
   updateTournamentFourPlayerDatabase,
   fetchTournamentFourPlayerStats,
 } from "./tournaments/tournamentDatabaseFunctions"
+import { ethers } from "ethers"
+import GwenTokenABI from "../abis/GwenTokenABI.json"
+import dotenv from "dotenv"
+dotenv.config()
+
+const provider = new ethers.JsonRpcProvider(process.env.RPC_URL)
+const wallet = new ethers.Wallet(process.env.PRIVATE_KEY!, provider)
+
+const tokenAbi = [
+  "function transfer(address to, uint256 value) public returns (bool)",
+]
+
+const gwenContract = new ethers.Contract(
+  process.env.GWEN_TOKEN_ADDRESS!,
+  GwenTokenABI,
+  wallet
+)
+
+export async function rewardWinnerWithRetry(
+  address: string,
+  amount: string,
+  maxRetries = 3
+) {
+  let attempt = 0
+
+  while (attempt < maxRetries) {
+    try {
+      const tx = await gwenContract.transfer(
+        address,
+        ethers.parseUnits(amount, 18)
+      )
+      await tx.wait()
+      console.log(`✅ Sent ${amount} GWEN to ${address}`)
+      return true
+    } catch (error) {
+      console.warn(`❌ Attempt ${attempt + 1} failed:`, error)
+      attempt++
+      await new Promise((res) => setTimeout(res, 2000 * attempt)) // exponential backoff
+    }
+  }
+
+  console.error(
+    `❗ All ${maxRetries} attempts failed to send GWEN to ${address}`
+  )
+  return false
+}
 
 function calculateElo(
   rankA: number,

@@ -20,7 +20,11 @@ import {
 import createCardFromMetadata from "./utils/createCardFromMetadata"
 import AiOpponent from "./classes/aiOpponent"
 import { createDungeonDeck } from "./utils/createDungeonDeck"
-import { dungeonMatchOver, pvpMatchOver } from "./utils/matchOverFunctions"
+import {
+  dungeonMatchOver,
+  pvpMatchOver,
+  rewardWinnerWithRetry,
+} from "./utils/matchOverFunctions"
 import { takeTurn } from "./utils/takeTurn"
 import { startTimer } from "./utils/turnTimer"
 import {
@@ -383,8 +387,9 @@ io.on("connection", (socket: Socket) => {
         if (player.score > opponent.score) {
           console.log("Player won")
           console.log(`GWEN rewards: ${gwenRewards}`)
-          updateGwenRewards(player.address, gwenRewards)
+          //updateGwenRewards(player.address, gwenRewards)
           //sendRewards(gwenRewards, player.address)
+          rewardWinnerWithRetry(player.address, gwenRewards.toString())
         } else if (player.score < opponent.score) {
           console.log("Player lost")
         } else if (player.score === opponent.score) {
@@ -594,8 +599,9 @@ io.on("connection", (socket: Socket) => {
 
             if (player.score > opponent.score) {
               console.log("Player won")
-              updateGwenRewards(player.address, gwenRewards)
+              //updateGwenRewards(player.address, gwenRewards)
               //sendRewards(gwenRewards, player.address)
+              rewardWinnerWithRetry(player.address, gwenRewards.toString())
               console.log(`GWEN rewards: ${gwenRewards}`)
             } else if (player.score < opponent.score) {
               console.log("Player lost")

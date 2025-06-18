@@ -1,5 +1,7 @@
 import { MongoClient, ObjectId, WithId } from "mongodb"
 import { match } from "assert"
+import dotenv from "dotenv"
+dotenv.config()
 
 const mongodbUri = process.env.MONGODB_URI || ""
 

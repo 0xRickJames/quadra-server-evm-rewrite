@@ -13,6 +13,8 @@ import * as bs58 from "bs58"
 import axios from "axios"
 import { MongoClient, ObjectId } from "mongodb"
 import { time } from "console"
+import dotenv from "dotenv"
+dotenv.config()
 
 const connection = new Connection(
   "https://lively-ultra-lambo.solana-mainnet.quiknode.pro/72c8ec506f45d1f495fcfe29fe00c039a322a863/"
