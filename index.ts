@@ -51,12 +51,8 @@ import sendRewards from "./utils/sendRewards"
 // SSL Certificates
 
 const options = {
-  key: fs.readFileSync(
-    "/etc/letsencrypt/live/quadra-server.rickmcfarley.lol/privkey.pem"
-  ),
-  cert: fs.readFileSync(
-    "/etc/letsencrypt/live/quadra-server.rickmcfarley.lol/fullchain.pem"
-  ),
+  key: fs.readFileSync("/home/rick/ssl/privkey.pem"),
+  cert: fs.readFileSync("/home/rick/ssl/fullchain.pem"),
 }
 
 const httpServer = https.createServer(options)
