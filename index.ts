@@ -49,16 +49,19 @@ import sendRewards from "./utils/sendRewards"
 //addDefaultDeckValue()
 
 // SSL Certificates
-/*
+
 const options = {
-  key: fs.readFileSync("../ssl_certs/private.key.pem"),
-  cert: fs.readFileSync("../ssl_certs/domain.cert.pem"),
-  ca: fs.readFileSync("../ssl_certs/intermediate.cert.pem"), // this is optional
+  key: fs.readFileSync(
+    "/etc/letsencrypt/live/quadra-server.rickmcfarley.lol/privkey.pem"
+  ),
+  cert: fs.readFileSync(
+    "/etc/letsencrypt/live/quadra-server.rickmcfarley.lol/fullchain.pem"
+  ),
 }
 
 const httpServer = https.createServer(options)
-*/
-const httpServer = createServer()
+
+//const httpServer = createServer()
 
 function calculateRewardMultiplier(ranks: string[]): number {
   let rewardMultiplier = 1
