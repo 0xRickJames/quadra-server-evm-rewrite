@@ -93,7 +93,7 @@ function calculateRewardMultiplier(ranks: string[]): number {
 async function getDungeonDeck(name: string): Promise<DungeonDeck | undefined> {
   try {
     const data = await fsPromises.readFile(
-      join(__dirname, "dungeonDecks.json"),
+      join(__dirname, "../dungeonDecks.json"),
       "utf8"
     )
     const decks: DungeonDeck[] = JSON.parse(data)
